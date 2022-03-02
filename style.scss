@@ -24,6 +24,7 @@ p {
   font-size: 14px;
   color: #bdbdbd;
 }
+
 img {
   max-width: 100%;
   height: auto;
@@ -51,6 +52,16 @@ header {
   }
   .container {
     .column {
+      h1 {
+        @media (max-width: 390px) {
+          font-size: 18px;
+        }
+      }
+      h3 {
+        @media (max-width: 390px) {
+          font-size: 12px;
+        }
+      }
       .profile-img {
         width: 150px;
         height: 150px;
@@ -58,6 +69,10 @@ header {
         @media (max-width: 480px) {
           width: 100px;
           height: 100px;
+        }
+        @media (max-width: 390px) {
+          width: 70px;
+          height: 70px;
         }
       }
     }
@@ -76,18 +91,24 @@ header {
         @media (max-width: 480px) {
           margin: 10px;
         }
-        @media (max-width: 335px) {
-          width: 150px;
-          height: 67px;
+        @media (max-width: 390px) {
+          width: 70px;
+          height: 47px;
         }
         h2 {
           @media (max-width: 480px) {
             font-size: 16px;
           }
+          @media (max-width: 390px) {
+            font-size: 14px;
+          }
         }
         h3 {
           @media (max-width: 480px) {
             font-size: 10px;
+          }
+          @media (max-width: 390px) {
+            font-size: 8px;
           }
         }
       }
@@ -129,9 +150,16 @@ footer {
   padding: 1rem;
   .column {
     p {
+      color: #b9bdcf;
       @media (max-width: 480px) {
         font-size: 0.8rem;
       }
+      @media (max-width: 390px) {
+        font-size: 0.6rem;
+      }
+    }
+    a {
+      color: #b9bdcf;
     }
   }
 }
