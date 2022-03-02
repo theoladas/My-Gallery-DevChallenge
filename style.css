@@ -55,10 +55,21 @@ img {
 header {
   padding: 2rem;
 }
+@media (max-width: 480px) {
+  header {
+    padding: 1.5rem;
+  }
+}
 header .container .column .profile-img {
   width: 150px;
   height: 150px;
   border-radius: 16px;
+}
+@media (max-width: 480px) {
+  header .container .column .profile-img {
+    width: 100px;
+    height: 100px;
+  }
 }
 header .container .row {
   justify-content: center;
@@ -74,9 +85,40 @@ header .container .row .col {
   border-radius: 12px;
   background-color: #e5e5e5;
 }
+@media (max-width: 480px) {
+  header .container .row .col {
+    margin: 10px;
+  }
+}
+@media (max-width: 335px) {
+  header .container .row .col {
+    width: 150px;
+    height: 67px;
+  }
+}
+@media (max-width: 480px) {
+  header .container .row .col h2 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  header .container .row .col h3 {
+    font-size: 10px;
+  }
+}
 
 .grid {
   padding-bottom: 4rem;
+}
+@media (max-width: 768px) {
+  .grid {
+    padding-bottom: 2rem;
+  }
+}
+@media (max-width: 480px) {
+  .grid {
+    padding-bottom: 1rem;
+  }
 }
 .grid .container {
   display: grid;
@@ -85,6 +127,11 @@ header .container .row .col {
 }
 .grid .container img {
   border-radius: 12px;
+}
+@media (max-width: 768px) {
+  .grid .container {
+    grid-gap: 1rem;
+  }
 }
 .grid .container .span-col-2 {
   grid-column: span 2/auto;
@@ -96,4 +143,9 @@ header .container .row .col {
 
 footer {
   padding: 1rem;
+}
+@media (max-width: 480px) {
+  footer .column p {
+    font-size: 0.8rem;
+  }
 }/*# sourceMappingURL=style.css.map */
