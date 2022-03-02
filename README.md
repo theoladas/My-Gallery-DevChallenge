@@ -31,7 +31,17 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+Desktop
+
+![x](https://user-images.githubusercontent.com/67963370/156369570-026dd3f0-1a08-486b-a3be-4a24b1c1f3a8.png)
+
+
+Mobile
+
+![Screenshot 2022-03-02 at 13 29 53](https://user-images.githubusercontent.com/67963370/156371067-a8c29d7b-76ab-43cf-9fa4-6a9f756d268b.png)
+
+
+
 
 ### Built With
 
