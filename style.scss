@@ -70,3 +70,28 @@ header {
     }
   }
 }
+
+// HERO
+.grid {
+  padding-bottom: 4rem;
+  .container {
+    img {
+      border-radius: 12px;
+    }
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    .span-col-2 {
+      grid-column: span 2 / auto;
+    }
+    .span-row-2 {
+      height: 100%;
+      grid-row: span 2 / auto;
+    }
+  }
+}
+
+// FOOTER
+footer {
+  padding: 1rem;
+}

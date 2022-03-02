@@ -73,4 +73,27 @@ header .container .row .col {
   height: 67px;
   border-radius: 12px;
   background-color: #e5e5e5;
+}
+
+.grid {
+  padding-bottom: 4rem;
+}
+.grid .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+}
+.grid .container img {
+  border-radius: 12px;
+}
+.grid .container .span-col-2 {
+  grid-column: span 2/auto;
+}
+.grid .container .span-row-2 {
+  height: 100%;
+  grid-row: span 2/auto;
+}
+
+footer {
+  padding: 1rem;
 }/*# sourceMappingURL=style.css.map */
