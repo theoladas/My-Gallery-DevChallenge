@@ -14,6 +14,7 @@ h1 {
 }
 h2 {
   font-size: 18px;
+  color: #4e5150;
 }
 h3 {
   font-size: 14px;
@@ -51,6 +52,20 @@ header {
         width: 150px;
         height: 150px;
         border-radius: 16px;
+      }
+    }
+    .row {
+      justify-content: center;
+      .col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        width: 100px;
+        height: 67px;
+        border-radius: 12px;
+        background-color: #e5e5e5;
       }
     }
   }
